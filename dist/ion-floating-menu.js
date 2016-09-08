@@ -19,7 +19,6 @@ angular.module('ion-floating-menu', [])
         return {
             restrict: 'E',
             scope: {
-
                 click: '&?',
                 buttonColor: '@?',
                 buttonClass: '@?',
@@ -47,7 +46,7 @@ angular.module('ion-floating-menu', [])
         };
     })
     .directive('ionFloatingMenu', function () {
-
+        
         return {
             restrict: 'E',
             scope: {
