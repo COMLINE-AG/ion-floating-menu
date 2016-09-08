@@ -61,7 +61,7 @@ angular.module('ion-floating-menu', [])
             },
             template: '<ul id="floating-menu"  \n\
                             ng-style="{\'bottom\' : \'{{bottomValue}}\'}" \n\
-                            ng-class="{\'active\' : isOpen, \'br\' : bottomRight, \'bl\' : bottomLeft, \'deactivated\' : isDeactivated}" \n\
+                            ng-class="{\'active\' : isOpen, \'br\' : bottomRight, \'bl\' : bottomLeft}" \n\
                             ng-click="open()">' +
             '<div ng-transclude></div>' +
             '<span><li class="menu-button icon menu-icon" ng-class="icon" ng-style="{\'background-color\' : buttonColor, \'color\': iconColor}"></li></span>' +
